@@ -20,11 +20,11 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed z-[9999] w-full text-white flex justify-center ${
+      className={`fixed z-[9999] w-[100%] text-white flex justify-center ${
         navbar ? 'bg-black' : 'bg-transparent'
       }`}
     >
-      <nav className="w-full">
+      <nav className="w-[100%]">
         {/* Menu button */}
         <div
           className="sm:hidden cursor-pointer text-center mx-auto my-2 w-[30px]"
