@@ -63,10 +63,10 @@ const Projects = () => {
           {categories.map((categorie, listIndex) => (
             <button
               key={listIndex}
-              className={`border-[1px] text-[0.8rem] sm:text-[1rem] border-lemon-yellow text-lemon-yellow p-2 hover:bg-lemon-yellow hover:text-black ${
+              className={`border-[1px] text-[0.8rem] sm:text-[1rem] border-lemon-yellow p-2 hover:bg-lemon-yellow hover:text-black ${
                 selectedCategorie === categorie
-                  ? 'bg-lemon-yellow text-[black]'
-                  : ''
+                  ? 'bg-lemon-yellow text-black'
+                  : 'text-lemon-yellow'
               }`}
               onClick={() => filterProjects(categorie)}
             >
