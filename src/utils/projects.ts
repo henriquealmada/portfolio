@@ -3,6 +3,7 @@ import bookingProject from '../assets/booking-project.png'
 import pricingPanelProject from '../assets/pricing-panel-project.png'
 import profileCardProject from '../assets/profile-card-project.png'
 import clipboardProject from '../assets/clipboard-project.png'
+import sunnysideProject from '../assets/sunnyside-project.png'
 import fourCardProject from '../assets/four-card-project.png'
 import productPreviewProject from '../assets/product-preview-card-project.png'
 import socialProofProject from '../assets/social-proof-project.png'
@@ -39,7 +40,7 @@ export const projects = [
     ],
     image: pizzaProject,
     liveLink: 'https://pizza-delivery-ten.vercel.app/',
-    githubLink: 'https://github.com/RiqueA2001/pizzadelivery'
+    githubLink: 'https://github.com/henriquealmada/pizzadelivery'
   },
   {
     title: 'Booking App',
@@ -52,7 +53,7 @@ export const projects = [
     ],
     image: bookingProject,
     liveLink: 'https://bookingapp-rose.vercel.app/',
-    githubLink: 'https://github.com/RiqueA2001/bookingapp'
+    githubLink: 'https://github.com/henriquealmada/bookingapp'
   },
   {
     title: 'Clipboard Landing Page',
@@ -62,7 +63,14 @@ export const projects = [
     ],
     image: clipboardProject,
     liveLink: 'https://clipboardlandingpage-vert.vercel.app/',
-    githubLink: 'https://github.com/RiqueA2001/clipboard-landing-page'
+    githubLink: 'https://github.com/henriquealmada/clipboard-landing-page'
+  },
+  {
+    title: 'Sunnyside Landing Page',
+    tools: [{ category: 'React', icon: react }],
+    image: sunnysideProject,
+    liveLink: 'https://sunnyside-landing-page-iota.vercel.app/',
+    githubLink: 'https://github.com/henriquealmada/sunnyside-landing-page'
   },
   {
     title: 'Video Background',
@@ -73,7 +81,7 @@ export const projects = [
     ],
     image: videoBackgroundProject,
     liveLink: 'https://video-background-wheat.vercel.app/',
-    githubLink: 'https://github.com/RiqueA2001/video-background'
+    githubLink: 'https://github.com/henriquealmada/video-background'
   },
   {
     title: 'Countries API',
@@ -84,14 +92,14 @@ export const projects = [
     ],
     image: countriesAPI,
     liveLink: 'https://countries-api-swart-ten.vercel.app/',
-    githubLink: 'https://github.com/RiqueA2001/countries-api'
+    githubLink: 'https://github.com/henriquealmada/countries-api'
   },
   {
     title: 'Controle Financeiro',
     tools: [{ category: 'React', icon: react }],
     image: controleFinanceiro,
     liveLink: 'https://controle-financeiro-livid-ten.vercel.app/',
-    githubLink: 'https://github.com/RiqueA2001/controle-financeiro'
+    githubLink: 'https://github.com/henriquealmada/controle-financeiro'
   },
   {
     title: 'Weather App',
@@ -102,7 +110,7 @@ export const projects = [
     ],
     image: weatherProject,
     liveLink: 'https://weather-app-jade-rho.vercel.app/',
-    githubLink: 'https://github.com/RiqueA2001/weather-app'
+    githubLink: 'https://github.com/henriquealmada/weather-app'
   },
   {
     title: 'Social Proof Section',
@@ -112,7 +120,7 @@ export const projects = [
     ],
     image: socialProofProject,
     liveLink: 'https://social-proof-section-rouge-eight.vercel.app/',
-    githubLink: 'https://github.com/RiqueA2001/social-proof-section'
+    githubLink: 'https://github.com/henriquealmada/social-proof-section'
   },
   {
     title: 'Testimonials Slider',
@@ -123,7 +131,7 @@ export const projects = [
     ],
     image: testimonialsSliderProject,
     liveLink: 'https://testimonials-slider-one-iota.vercel.app/',
-    githubLink: 'https://github.com/RiqueA2001/testimonials-slider'
+    githubLink: 'https://github.com/henriquealmada/testimonials-slider'
   },
   {
     title: 'Advice Generator',
@@ -134,7 +142,7 @@ export const projects = [
     ],
     image: adviceGeneratorProject,
     liveLink: 'https://advice-generator-eight-mu.vercel.app/',
-    githubLink: 'https://github.com/RiqueA2001/advice-generator'
+    githubLink: 'https://github.com/henriquealmada/advice-generator'
   },
   {
     title: 'Stats Preview Card',
@@ -144,7 +152,7 @@ export const projects = [
     ],
     image: statsPreviewCardProject,
     liveLink: 'https://stats-preview-card-rho-blond.vercel.app/',
-    githubLink: 'https://github.com/RiqueA2001/stats-preview-card'
+    githubLink: 'https://github.com/henriquealmada/stats-preview-card'
   },
   {
     title: 'Four Card Section',
@@ -154,7 +162,7 @@ export const projects = [
     ],
     image: fourCardProject,
     liveLink: 'https://four-card-feature-section-mu-two.vercel.app/',
-    githubLink: 'https://github.com/RiqueA2001/four-card-feature-section'
+    githubLink: 'https://github.com/henriquealmada/four-card-feature-section'
   },
   {
     title: 'Profile Card',
@@ -164,7 +172,7 @@ export const projects = [
     ],
     image: profileCardProject,
     liveLink: 'https://profile-card-wheat-eta.vercel.app/',
-    githubLink: 'https://github.com/RiqueA2001/profile-card'
+    githubLink: 'https://github.com/henriquealmada/profile-card'
   },
   {
     title: 'Product Preview Card',
@@ -175,7 +183,7 @@ export const projects = [
     ],
     image: productPreviewProject,
     liveLink: 'https://product-preview-card-kappa-roan.vercel.app/',
-    githubLink: 'https://github.com/RiqueA2001/product-preview-card'
+    githubLink: 'https://github.com/henriquealmada/product-preview-card'
   },
   {
     title: 'Pricing Panel',
@@ -185,7 +193,7 @@ export const projects = [
     ],
     image: pricingPanelProject,
     liveLink: 'https://pricing-panel-pi.vercel.app/',
-    githubLink: 'https://github.com/RiqueA2001/pricing-panel'
+    githubLink: 'https://github.com/henriquealmada/pricing-panel'
   },
   {
     title: 'Restaurant Menu',
@@ -196,7 +204,7 @@ export const projects = [
     ],
     image: restaurantMenuProject,
     liveLink: 'https://restaurant-menu-ashen.vercel.app/',
-    githubLink: 'https://github.com/RiqueA2001/restaurant-menu'
+    githubLink: 'https://github.com/henriquealmada/restaurant-menu'
   },
   {
     title: 'Accordion',
@@ -207,6 +215,6 @@ export const projects = [
     ],
     image: accordionProject,
     liveLink: 'https://accordion-sand.vercel.app/',
-    githubLink: 'https://github.com/RiqueA2001/accordion'
+    githubLink: 'https://github.com/henriquealmada/accordion'
   }
 ]
